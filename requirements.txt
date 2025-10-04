@@ -1,5 +1,5 @@
 numpy<2
-meep  # Changed from meep-python
+meep>=1.29.0
 autograd
 nlopt
 mpi4py
