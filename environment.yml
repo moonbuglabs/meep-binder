@@ -1,0 +1,14 @@
+name: pmp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - meep
+  - mpi4py
+  - mpich
+  - pip
+  - pip:
+      - autograd
+      - nlopt
+      - numpy<2
