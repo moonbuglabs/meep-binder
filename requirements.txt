@@ -1,0 +1,5 @@
+numpy<2
+meep-python
+autograd
+nlopt
+mpi4py
