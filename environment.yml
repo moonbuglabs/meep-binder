@@ -4,12 +4,12 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - meep
   - mpi4py
   - mpich
-  - matplotlib  # For waveguide plotting
+  - matplotlib
   - pip
   - pip:
+      - numpy<2.0
+      - meep>=1.25.0
       - autograd
       - nlopt
-      - numpy<2.0
